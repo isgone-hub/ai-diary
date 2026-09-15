@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 일기장 설치</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      background: linear-gradient(145deg, #08152f, #123c78);
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      color: white;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      padding: 45px 28px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 26px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.30);
+    }
+
+    .icon {
+      font-size: 58px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+      font-size: 17px;
+      line-height: 1.7;
+      color: #dbeafe;
+    }
+
+    .download {
+      display: block;
+      width: 100%;
+      padding: 19px 20px;
+      background: white;
+      color: #123c78;
+      text-decoration: none;
+      border-radius: 15px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .download:hover {
+      opacity: 0.92;
+    }
+
+    .guide {
+      margin-top: 28px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255,255,255,0.18);
+      text-align: left;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #e5e7eb;
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #a9bdd9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="icon">🎙️</div>
+
+    <h1>AI 일기장</h1>
+
+    <div class="subtitle">
+      말하고, 기록하고, 오래 보관하세요.<br>
+      오늘의 한마디가 훗날 나의 이야기가 됩니다.
+    </div>
+
+    <a class="download"
+       href="app-debug.apk"
+       download>
+       AI 일기장 설치하기
+    </a>
+
+    <div class="guide">
+      <strong>설치 방법</strong><br>
+      ① 위의 「AI 일기장 설치하기」 버튼을 누릅니다.<br>
+      ② APK 파일 다운로드가 완료되면 파일을 엽니다.<br>
+      ③ Android에서 설치 허용 안내가 나오면 안내에 따라 허용합니다.<br>
+      ④ 설치가 끝나면 AI 일기장을 실행합니다.
+    </div>
+
+    <div class="footer">
+      AI Diary · Android
+    </div>
+
+  </div>
+
+</body>
+</html>
